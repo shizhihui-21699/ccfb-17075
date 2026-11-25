@@ -16,3 +16,20 @@ node_modules/
 __pycache__/
 .venv/
 venv/
+
+# C/C++ build outputs
+build/
+build-*/
+out/
+*.obj
+*.o
+*.exe
+*.pdb
+*.ilk
+compile_commands.json
+
+# PipeSec runtime artifacts
+*.sddl.bak
+pipesec-state.tsv
+events.jsonl
+report.json
